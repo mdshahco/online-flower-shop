@@ -141,3 +141,29 @@
     justify-content: space-between;
     
 }
+/* get the latest deal styles  */
+.letest-deals{
+    background-image: url(/images/Rectangle-9.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 100px 240px;
+    padding: 120px 287px;
+}
+.letest-deals h2{
+    font-size: 40px;
+}
+.letest-deals p{
+    font-size: 18px;
+    margin: 0px auto 30px auto;
+    color: #272727;
+    opacity: 60%;
+}
+.letest-deals input{
+    width: 500px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
