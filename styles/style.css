@@ -7,8 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    /* width: 1920px; */
-    /* padding: 0px 240px; */
+    width: 100%;
 }
 /* header styles */
 .header{
@@ -122,4 +121,23 @@
     flex: 50%;
     /* margin-top: 100px;
     margin-bottom: 100px; */
+}
+/* social media style  */
+.social-media{
+    padding: 50px 240px;
+    text-align: center;
+}
+.social-media h2{
+    font-size: 40px;
+}
+.social-media p{
+    font-size: 18px;
+    margin: 30px auto;
+    color: #272727;
+    opacity: 60%;
+}
+.social-box{
+    display: flex;
+    justify-content: space-between;
+    
 }
