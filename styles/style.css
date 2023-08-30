@@ -8,6 +8,7 @@
 }
 .container{
     /* width: 1920px; */
+    /* padding: 0px 240px; */
 }
 /* header styles */
 .header{
@@ -51,6 +52,7 @@
 #featured{
     padding: 50px 240px 0px 240px;
     text-align: center;
+    margin-bottom: 200px;
 }
 .featured-title{
     font-size: 40px;
@@ -94,6 +96,30 @@
     height: 538px;
     padding: 67px 75px 0px 75px;
     padding: 110px 78px 0px 78px;
-
-  
+}
+/* hot deal style  */
+#hot-deal{
+        padding: 200px 240px 0px 240px;
+        text-align: center;
+        background-color: rgba(167, 33, 98, 15%);;
+}
+#hot-deal h2{
+    font-size: 40px;
+}
+#hot-deal p{
+    font-size: 18px;
+    margin: 30px auto;
+    color: #272727;
+    opacity: 60%;
+}
+.hot-deal{
+    display: flex;
+}
+.hot-deal-left{
+    flex: 50%;
+}
+.hot-deal-right{
+    flex: 50%;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
 }
